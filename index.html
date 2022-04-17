@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Болезнь</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<style type="text/css">
+		/*правило работы сайта при различных устройствах. Условия*/
+	    @media (max-width: 576px) {/*все устройства у которых ширина меньше 576px*/
+	    
+	    .container1 {
+	    }
+	     
+	    .box {
+	        display: none;
+	        font-size: 15px;
+	     }
+	    }
+	    .tech{
+	    	padding-left: 10px;
+	    	width: 300px;
+	    }
+	    .number7{
+	    	font-size: 8px;
+	    	margin-top: 150px;
+	    	margin-left: 0px;
+	    }
+	    .search{
+	    	width: 130px;
+	    }
+	    .btn1{
+	    	width: 8px;
+	    	height: 8px;
+	    }
+	    .catalog{
+	    	width: 95px;
+	    }
+	    .vhod{
+	    	height: 100px;
+	    }
+	    .end1{
+	    	width: 200px;
+	    }
+	    .link1{
+			text-decoration: none;
+			color: black;
+			font-family: DejaVu Sans Mono, monospace;
+			font-size: 15px;
+			margin-left: 10px;
+		}
+		.igra{
+			height: 500px;
+			margin-top: 200px;
+		}
+		.number8{
+	    	font-size: 8px;
+	    }
+	    /**/
+	    @media (min-width: 576px) {/*все устройства у которых ширина больше 576px*/
+	    
+	    .container1 {
+	    }
+	    
+	   .box {
+	   		width: 100px;
+	        font-size: 20px;
+	     }
+	    }
+	    .tech{
+	    	padding-left: 20px;
+	    	width: 300px;
+	    }
+	    .number7{
+	    	font-size: 13px;
+	    }
+	    .search{
+	    	width: 280px;
+	    }
+	    .btn1{
+	    	width: 12px;
+	    	height: 12px;
+
+	    }
+	    .catalog{
+	    	width: 127px;
+	    }
+	    .vhod{
+	    	height: 100px;
+	    }
+	    .end1{
+	    	width: 200px;
+	    }
+	    .link1{
+			text-decoration: none;
+			color: black;
+			font-family: DejaVu Sans Mono, monospace;
+			font-size: 20px;
+			margin-left: 10px;
+		}
+		.main{
+			height: 700px;
+		}
+		.number8{
+	    	font-size: 13px;
+	    }
+	    /*от 576 до 768 все будет черного цвета*/
+	    @media (min-width: 768px) {/*все устройства у которых ширина больше 768px*/
+	    
+	    .container1 {
+	    }
+	    
+	    .box {
+	        width: 150px;
+	        font-size: 25px;
+	     }
+	    }
+	    .tech{
+	    	padding-left: 30px;
+	    	width: 300px;
+	    }
+	    .number7{
+	    	font-size: 18px;
+	    	margin-left: 0px;
+	    }
+	    .search{
+	    	width: 410px;
+	    }
+	    .btn1{
+	    	width: 15px;
+	    	height: 15px;
+	    	margin-left: 0px;
+	    	margin-right: 5px;
+	    }
+	    .catalog{
+	    	width: 165px;
+	    }
+	    .vhod{
+	    	height: 100px;
+	    }
+	    .end1{
+	    	width: 300px;
+	    	margin-left: auto;
+	    	margin-right: auto;
+	    }
+	    .link1{
+			text-decoration: none;
+			color: black;
+			font-family: DejaVu Sans Mono, monospace;
+			font-size: 20px;
+			margin-left: 10px;
+		}
+		.main{
+			height: 700px;
+		}
+		.number8{
+	    	font-size: 18px;
+	    }
+	    @media (min-width: 992px) {/*все устройства у которых ширина больше 992px*/
+	    
+	    .container1 {
+	    }
+	    
+	    .box {
+	        width: 175px;
+	        font-size: 30px;
+	     }
+	    }
+	    .tech{
+	    	padding-left: 40px;
+	    	width: 300px;
+	    }
+	    .number7{
+	    	font-size: 18px;
+	    	margin-left: 0px;
+	    }
+	    .search{
+	    	width: 550px;
+	    }
+	    .btn1{
+	    	width: 17px;
+	    	height: 17px;
+	    }
+	    .catalog{
+	    	width: 200px;
+	    }
+	    .vhod{
+	    	height: 100px;
+	    }
+	    .end1{
+	    	width: 400px;
+	    	margin-left: auto;
+	    	margin-right: auto;
+	    	margin-top: ;
+	    }
+	    .link1{
+			text-decoration: none;
+			color: black;
+			font-family: DejaVu Sans Mono, monospace;
+			font-size: 20px;
+			margin-left: 10px;
+		}
+		.cimg{
+			margin-top: 60px;
+		}
+		.main{
+			height: 700px;
+		}
+		.number8{
+	    	font-size: 18px;
+	    }
+	    @media (min-width: 1200px) {/*все устройства у которых ширина больше 1200px*/
+	    
+	    .container1 {
+	    }
+	    
+	    .box {
+	       width: 200px;
+	       font-size: 35px;
+	     }
+	    .tech{
+	    	padding-left: 50px;
+	    	width: 250px;
+	    }
+	    .number7{
+	    	font-size: 20px;
+	    	margin-top: 0px;
+	    	margin-left: 60px;
+	    }
+	    .search{
+	    	width: 600px;
+	    }
+	    .btn1{
+	    	width: 17px;
+	    	height: 17px;
+	    	margin-left: 5px;
+	    }
+	    .catalog{
+	    	width: 330px;
+	    	height: 1000px;
+	    }
+	    .vhod{
+	    	height: 100px;
+	    }
+	    .end1{
+	    	width: 800px;
+	    	margin-left: auto;
+	    	margin-right: auto;
+	    	margin-top: 0px;
+	    }
+	    .link1{
+			text-decoration: none;
+			color: black;
+			font-family: DejaVu Sans Mono, monospace;
+			font-size: 20px;
+			margin-left: 10px;
+		}
+		.cimg{
+
+		}
+		.main{
+			height: 700px;
+		}
+		.number8{
+	    	font-size: 20px;
+	    }
+		.about{
+			margin-bottom: 0px;
+			color: #7b7a80;
+		}
+		.margin{
+			margin-left: 0px;
+			margin-right: 0px;
+			margin-bottom: 0px;
+			margin-top: 0px;
+		}
+	</style>
+</head>
+<body>
+
+<div class="container-fluid">
+
+	<div class="col-12 d-flex sticky-top" style="height: 70px;">
+		<img src="Чаша Гигиеи.png" style="height: 70px; width: 70px; border-radius: 100px;">
+
+		<div class="search bg-white d-flex ms-5" style="height: 50px; margin-top: 10px;">
+        <div class="col-12 bg-white">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Введите название, заболевания или симптома">
+              <div class="input-group-text col-1 " style="margin-left: 0px;">
+                <img src="search.PNG" class="btn1">
+              </div>
+            </div>
+        </div>
+       </div>
+
+       <div class="tech" style="margin-left: 0px; margin-right:100px">
+           	<div class="col-12">
+            		<p class="number8" style="color: gray; font-family: cursive; margin-bottom: 0px;">
+            		Техподдержка
+            		</p>
+            	</div>
+            	<div class="col-12">
+            		<p class="number8" style="margin-top: 0px; color: #56c4b9;font-family: Snell Roundhand, cursive;">
+            			8 914 289 56 12	
+            		</p>
+            </div>
+        </div>
+
+	</div>
+
+	<div class="col-12 d-flex">
+	<div class="col-10 " style="height: 1000px;">
+		<div class="col-12 d-flex">
+			<div class="col-2">
+				<img src="простуда.jpg" class="border border-dark" style="border-radius: 20px;">
+			</div>
+			<div>
+				<p class="number7" >Просту́да (англ. common cold) — клинический синдром острого воспаления верхних дыхательных путей, затрагивающего преимущественно нос и возникающего из-за неспецифической острой респираторной инфекции. В воспаление могут быть вовлечены горло, гортань и пазухи.</p>
+				<a href="" class="link1 margin">Просту́да</a>
+			</div>
+		</div>
+	</div>
+
+	
+		<div class="container1 catalog">
+				<div class="col-12 vhod">
+					<img src="вход.png" style="height: 100px; width: 130px;">
+					<a href="" class="link1">Вход/Регистрация</a>
+				</div>
+				<div class="col-12 vhod cimg">
+					<img src="врач.png" style="height: 110px; width: 130px;">
+					<a href="" class="link1">Врачи</a>
+				</div>
+				<div class="col-12 vhod cimg">
+					<img src="аптека.jpg" style="height: 110px; width: 130px;">
+					<a href="" class="link1">Аптека</a>
+				</div>
+				<div class="col-12 vhod cimg">
+					<img src="дом.png" style="height: 130px; width: 130px;">
+					<a href="https://h1kka.github.io/hakaton-main/" class="link1">Главное меню</a>
+				</div>
+		</div>
+	
+	</div>
+
+</div>
+
+</body>
+</html>
